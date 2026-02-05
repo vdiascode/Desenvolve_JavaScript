@@ -1,0 +1,15 @@
+Neste exercício, você criará um temporizador de contagem regressiva que aceita uma data futura e conta o tempo restante até essa data. O temporizador exibirá os dias, horas, minutos e segundos restantes e será atualizado a cada segundo.
+
+Passos:
+
+ 1. Defina uma função para calcular o tempo restante até uma data futura:
+
+ calcularTempoRestante(dataFutura)
+
+ 2. Defina uma função para atualizar o temporizador na tela:
+
+ atualizarTemporizador()
+
+ 3. Use setInterval para atualizar o temporizador a cada segundo.
+
+ 4. Manipule o objeto Date para calcular a diferença entre a data atual e a data futura.
