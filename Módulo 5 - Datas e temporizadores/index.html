@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador Regressivo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Contador Regressivo</h1>
+    
+    <form>
+      <input type="date" id="data-final" required>
+      <input type="time" id="horario-final" required>
+      <button type="submit">Iniciar</button>
+    </form>
+
+    <div class="temporizador">
+      <div class="caixa">
+        <span id="dias">00</span>
+        <p>Dias</p>
+      </div>
+      <div class="caixa">
+        <span id="horas">00</span>
+        <p>Horas</p>
+      </div>
+      <div class="caixa">
+        <span id="minutos">00</span>
+        <p>Minutos</p>
+      </div>
+      <div class="caixa">
+        <span id="segundos">00</span>
+        <p>Segundos</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
